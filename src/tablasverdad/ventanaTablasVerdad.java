@@ -218,7 +218,7 @@ public class ventanaTablasVerdad extends javax.swing.JFrame {
     public boolean solucionExpresion(String[] Expresion) {
         int p = 0, q = 0, r = 0, u = 0, n = 0, expo = 0, cantExp = 0, pos_paren_izq = 0, pos_paren_der = 0;
         int contarray = 0;
-
+        //System.out.println("Entro");
         for(int i = 0; i < Expresion.length; i++) {
             if(Expresion[i] == "p") {
                 p++;
